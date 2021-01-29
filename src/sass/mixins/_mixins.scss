@@ -1,0 +1,35 @@
+@mixin card_text_dark {
+    -webkit-text-stroke: 0.3px rgb(202, 202, 202);
+    color: black;
+    text-shadow:
+        0.5px 0.5px 0 rgb(170, 170, 170),
+        -0.5px 0.5px 0 rgb(170, 170, 170),
+        0.5px 0.5px 0 rgb(170, 170, 170);
+}
+
+@mixin card_text_light {
+    -webkit-text-stroke: 0.3px rgb(43, 43, 43);
+    color: white;
+    text-shadow:
+        0.5px 0.5px 0 rgb(80, 80, 80),
+        -0.5px 0.5px 0 rgb(80, 80, 80),
+        0.5px 0.5px 0 rgb(80, 80, 80);
+}
+
+@mixin btn_light {
+    background-color: white;
+    color: black;
+
+    a {
+        color: black;
+    }
+}
+
+@mixin btn_dark {
+    background-color: black;
+    color: white;
+
+    a {
+        color: white;
+    }
+}

@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=PT+Mono&family=Shadows+Into+Light&display=swap');
+@import '../variables/variables';
+
+* {
+	box-sizing: border-box;
+}
+
+h1 {
+	font: 900 32px/1.5em ' Roboto', sans-serif;
+	color: black;
+	margin: 0.5em 0 0 0;
+}
+
+h2 {
+	font: 400 16px/1.5em ' Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+h3 {
+	font: 600 24px/1.5em 'PT Mono', monospace;
+	font-variant: small-caps;
+}
+
+h4,
+.card,
+.card-front,
+label {
+	font: 300 18px/1.5em 'PT Mono', monospace;
+	font-variant: small-caps;
+}
+
+h4 {
+	margin: 0;
+}
+
+::placeholder,
+input {
+	font: 400 16px/1.5em ' Roboto', sans-serif;
+	text-transform: uppercase;
+}
+
+.error-message {
+	font: 300 14px/1.5em 'PT Mono', monospace;
+}
+
+.signature {
+	font: 400 18px/1.5em 'Shadows Into Light', cursive;
+	text-transform: capitalize;
+}
+
+main {
+	color: rgb(97, 97, 97);
+}
+
+a {
+	text-decoration-color: none;
+	text-decoration: none;
+
+}
+
+ul {
+	list-style: none;
+}
+
+button {
+	border-radius: $corners;
+	border: $black_border;
+	width: $full_width;
+	height: 4em;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	outline:none;
+	cursor: pointer;
+}
